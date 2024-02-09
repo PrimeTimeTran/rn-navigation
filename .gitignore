@@ -70,4 +70,11 @@ yarn-error.log
 .pnp.loader.mjs
 .yarn
 .vscode
+.bundle
 yarn.lock
+
+# Android
+*/.gradle
+
+
+# iOS
