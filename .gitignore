@@ -65,8 +65,9 @@ yarn-error.log
 # testing
 /coverage
 
-
 # React Native
 .pnp.cjs
 .pnp.loader.mjs
+.yarn
+.vscode
 yarn.lock
