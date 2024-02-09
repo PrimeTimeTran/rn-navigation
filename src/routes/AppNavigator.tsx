@@ -67,8 +67,12 @@ export default function AppNavigator() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
+        <Stack.Screen
+          name="Authenticated"
+          component={DrawerNavigator}
+          options={{headerShown: false}}
+        />
         <Stack.Screen name="Auth" component={AuthScreen} />
-        <Stack.Screen name="Authenticated" component={DrawerNavigator} />
       </Stack.Navigator>
     </NavigationContainer>
   );

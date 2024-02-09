@@ -1,0 +1,51 @@
+{
+  // Focusing flutter so ignore server when searching
+
+  "files.exclude": {
+    // ########################
+    // General: ☯︎ Focused start...
+    ".bundle": true,
+    ".yarn": true,
+    "node_modules": true,
+    "vendor": true,
+    ".eslintrc.js": true,
+    ".prettierrc.js": true,
+    ".watchmanconfig": true,
+    ".yarnrc.yml": true,
+    "Gemfile": true,
+    "Gemfile.lock": true,
+    "babel.config.js": true,
+    "jest.config.js": true,
+    "metro.config.js": true,
+    "tsconfig.json": true,
+
+    // General: ☯︎ Focused end...
+    // ########################
+
+    // ######################### Leave forever because we always want to ignore and don't wanna mess up due to missing comma
+    "**/yarn.lock": true
+  },
+  "editor.codeActionsOnSave": {
+    "quickfix.insertSemicolon": "explicit"
+  },
+  "dart.analysisExcludedFolders": [
+    "netlify/functions/esm-muxter/Turboship/flutter",
+    "netlify/functions/esm-muxter/TurboshipCJS/flutter"
+  ],
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#000",
+    "titleBar.activeBackground": "#41b883",
+    "titleBar.inactiveBackground": "#3b8070",
+    "titleBar.inactiveForeground": "#000000CC"
+  },
+  "cSpell.words": [
+    "headlessui",
+    "Pinia",
+    "Reactionable",
+    "realestate",
+    "toastify",
+    "usecases",
+    "vuedraggable"
+  ],
+  "workbench.iconTheme": "vscode-icons"
+}
