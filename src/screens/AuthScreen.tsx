@@ -14,7 +14,7 @@ export function AuthScreen({navigation}) {
           icon="camera"
           mode="contained"
           onPress={() =>
-            navigation.navigate('Home', {foo: 'bar', spam: 'ham'})
+            navigation.navigate('Authenticated', {foo: 'bar', spam: 'ham'})
           }>
           Go To Home Screen
         </Button>
